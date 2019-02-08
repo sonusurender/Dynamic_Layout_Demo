@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/verticalLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vertical" />
+
+        <Button
+            android:id="@+id/horizontalLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horizontal" />
+
+        <Button
+            android:id="@+id/customHorizontalLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customHorizontal" />
+
+        <!-- Layout for placing custom layout  -->
+        <LinearLayout
+            android:id="@+id/layoutHolder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" />
+    </LinearLayout>
+</ScrollView>

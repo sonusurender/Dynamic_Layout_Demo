@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adding Dynamic Layout Demo</string>
+
+    <string name="vertical">Vertical Layout</string>
+    <string name="horizontal">Horizontal Layout</string>
+    <string name="customHorizontal">Custom Horizontal Layout</string>
+</resources>
